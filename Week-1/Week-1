@@ -1,5 +1,6 @@
 # Week-1-Q1-working_of_browser
-Explains the working of browser.
+
+## Explains the working of browser.
 Web browsers are primarily used to display and access websites on the internet, as well as other content created with programming languages such as Hypertext Markup Language (HTML) and Extensible Markup Language (XML) (XML). Browsers convert Hypertext Transfer Protocol (HTTP) web pages and websites into human-readable content. They can also show other protocols and prefixes, such as secure HTTP (HTTPS), FTPs, etc.
 A web browser’s primary function is to render HTML, the code that is used to design web pages. When a browser loads a web page, it processes the HTML, which may contain text, links, and references to images and other items like CSS and JavaScript functions. The browser then renders these objects in the browser window after processing them.
 # Browser's high level structure:
