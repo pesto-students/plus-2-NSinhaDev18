@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week-2-Assignement-2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 900px;
+            border: 3px ;
+            margin: 33px auto;
+
+        }
+        .item {
+            border: 3px ;
+            margin-block: 12px;
+            padding-bottom: 2px;
+            text-align: left;
+        
+        }
+        #para1{
+            float: left;
+            width: 100%;
+            text-align: center;
+            
+        }
+        #para2 {
+            float: left;
+            width: 48%;
+            
+        }
+        #para3 {
+            float: right;
+            width: 48%;
+            
+        }
+        #para4 {
+            float: left;
+            width: 48%;
+            vertical-align: top;
+            padding: 20px;
+            
+        }
+        #para5 {
+            float: right;
+            width: 48%;
+            
+        }
+        #para6 {
+            padding-top: 2px;
+            float: right;
+            width: 48%;
+            
+        }
+        #block {
+            padding-top: 2px;
+            float: left;
+            width: 100%;
+            
+        }
+        .form {
+            margin-top: 20px;
+        }
+        div a {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="para1" class="item">
+            <p id="id1" class="para" ><h3>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</h3></p>
+        </div>
+        <div id="para2" class="item">
+            <p id="id2" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officia dolor corporis quidem cum est saepe explicabo. Repudiandae ipsam sit, nemo, explicabo sed velit ab animi minus ducimus, molestias perspiciatis?</p>
+        </div>
+        <div id="para3" class="item">
+            <p id="id3" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officia dolor corporis quidem cum est saepe explicabo. Repudiandae ipsam sit, nemo, explicabo sed velit ab animi minus ducimus, molestias perspiciatis?</p>
+        </div>
+        <div id="para4" class="item">
+            <p id="id4" class="para"><img src="E:\Pesto\GitnGithub\Week-2\img.jpg"></p>
+        </div>
+        <div id="para5" class="item">
+            
+            <p id="id5" class="para"><b>Lorem ipsum dolor sit</b><br> ipsum dolor, sit amet consectetur adipisicing elit. Hic officia dolor corporis quidem cum est saepe explicabo. Repudiandae ipsam sit, nemo, explicabo sed velit ab animi minus ducimus, molestias perspiciatis?</p>
+        </div>
+        <div id="para6" class="item">
+            <p id="id6" class="para"><b>Lorem ipsum dolor sit</b><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic officia dolor corporis quidem cum est saepe explicabo. Repudiandae ipsam sit, nemo, explicabo sed velit ab animi minus ducimus, molestias perspiciatis?</p>
+        </div>
+        <div id="block" class="item">
+            <form action="">
+                <div>
+                Title <input type="radio" name="title">Mr  <input type="radio" name="title">Mrs <input type="radio" name="title">Miss
+            </div>
+            <div class="form">
+                First name <input type="text" name="Fname">
+            </div>
+            <div class="form">
+                Last name <input type="text" name="Lname">
+            </div>
+            <div class="form">
+                Email <input type="email" name="email">
+            </div>
+            <div class="form">
+                Phone number <input type="tel" name="phone" pattern="[0-9]{9}">
+            </div>
+            <div class="form">
+                Password <input type="password" name="password" >
+            </div>
+            <div class="form">
+               Confirm your password <input type="password" name="C_password" >
+            </div>
+            <div class="form">
+                Country <select name="selction"> 
+                    <option value="Canada"> Canada</option>
+                    <option value="USA">USA</option>
+
+                </select> 
+            </div>
+            <div class="form">
+               <input type="checkbox" name="checkbox" > I agree to the <a href="#">terms and conditions</a>
+            </div>
+            <div class="form">
+                <input type="submit" name="submit" value="Sign up" >
+            </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
