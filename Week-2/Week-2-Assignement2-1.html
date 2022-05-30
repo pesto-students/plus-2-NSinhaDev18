@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Assignement2.1 - Week-2</title>
+    <style>
+        .box{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            top: 100px;
+            left: 300px;
+        }
+        p{
+            padding-left: 80px;
+            padding-top: 80px;
+            position: absolute;
+         }
+        .b1{
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          transition-property: transform;
+          transition-timing-function: ease-in-out; 
+         
+        }
+        .b2{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            left: 100px;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+        }
+        .b3{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            top: 100px;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+         }
+        .b4{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            left: 100px;
+            top: 100px;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+            
+        }
+        .box:hover .b1{
+            transform: rotate(90deg);
+            transform-origin: top left;
+            transition-duration: 1s;
+            
+            
+         }
+
+        .box:hover .b2{
+            
+            transform: rotate(-90deg);
+            
+            transform-origin: top right;
+            transition-duration: 1s;
+        }
+        .box:hover .b3{
+            
+            transform: rotate(-90deg);
+            
+            transform-origin: bottom left;
+            transition-duration: 1s;
+         }
+        .box:hover .b4{
+            
+            transform: rotate(90deg);
+            
+            transform-origin: bottom right;
+            transition-duration: 1s;
+                   
+        }
+     
+    </style>
+</head>
+<body>
+      
+    <div class="box">
+        <p><b>Hi!</b></p>
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+    </div>
+    
+    
+    
+</body>
+</html>
